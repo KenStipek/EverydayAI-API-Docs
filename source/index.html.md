@@ -1,50 +1,46 @@
---- 
+---
 
-title: dev-EverydayAI-API 
+title: dev-EverydayAI-API
 
-language_tabs: 
-   - shell 
+language_tabs:
+   - shell
 
-toc_footers: 
-   - <a href='#'>Sign Up for a Developer Key</a> 
-   - <a href='https://github.com/lavkumarv'>Documentation Powered by lav</a> 
+includes:
+   - errors
 
-includes: 
-   - errors 
+search: true
 
-search: true 
+---
 
---- 
+# Introduction
 
-# Introduction 
-
-**Version:** 2018-04-29T05:38:21Z 
+**Version:** 2018-04-29T05:38:21Z
 
 # /BRAINS
-## ***GET*** 
+## ***GET***
 
-### HTTP Request 
-`***GET*** /brains` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-
-## ***POST*** 
-
-### HTTP Request 
-`***POST*** /brains` 
+### HTTP Request
+`***GET*** /brains`
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
 
-## ***OPTIONS*** 
+## ***POST***
 
-### HTTP Request 
-`***OPTIONS*** /brains` 
+### HTTP Request
+`***POST*** /brains`
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+
+## ***OPTIONS***
+
+### HTTP Request
+`***OPTIONS*** /brains`
 
 **Responses**
 
@@ -53,26 +49,10 @@ search: true
 | 200 | 200 response |
 
 # /BRAINS/{ID}
-## ***GET*** 
+## ***GET***
 
-### HTTP Request 
-`***GET*** /brains/{id}` 
-
-**Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-| id | path |  | Yes | string |
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-
-## ***PUT*** 
-
-### HTTP Request 
-`***PUT*** /brains/{id}` 
+### HTTP Request
+`***GET*** /brains/{id}`
 
 **Parameters**
 
@@ -85,10 +65,26 @@ search: true
 | Code | Description |
 | ---- | ----------- |
 
-## ***OPTIONS*** 
+## ***PUT***
 
-### HTTP Request 
-`***OPTIONS*** /brains/{id}` 
+### HTTP Request
+`***PUT*** /brains/{id}`
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| id | path |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+
+## ***OPTIONS***
+
+### HTTP Request
+`***OPTIONS*** /brains/{id}`
 
 **Responses**
 
@@ -97,30 +93,30 @@ search: true
 | 200 | 200 response |
 
 # /TESTS
-## ***GET*** 
+## ***GET***
 
-### HTTP Request 
-`***GET*** /tests` 
-
-**Responses**
-
-| Code | Description |
-| ---- | ----------- |
-
-## ***POST*** 
-
-### HTTP Request 
-`***POST*** /tests` 
+### HTTP Request
+`***GET*** /tests`
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
 
-## ***OPTIONS*** 
+## ***POST***
 
-### HTTP Request 
-`***OPTIONS*** /tests` 
+### HTTP Request
+`***POST*** /tests`
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+
+## ***OPTIONS***
+
+### HTTP Request
+`***OPTIONS*** /tests`
 
 **Responses**
 
