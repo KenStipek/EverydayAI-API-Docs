@@ -245,6 +245,9 @@
                     <a href="#put" class="toc-h2 toc-link" data-title="strong-em-put-em-strong"><strong><em>PUT</em></strong></a>
                   </li>
                   <li>
+                    <a href="#delete" class="toc-h2 toc-link" data-title="strong-em-delete-em-strong"><strong><em>DELETE</em></strong></a>
+                  </li>
+                  <li>
                     <a href="#options-2" class="toc-h2 toc-link" data-title="strong-em-options-em-strong"><strong><em>OPTIONS</em></strong></a>
                   </li>
               </ul>
@@ -267,12 +270,16 @@
             <a href="#errors" class="toc-h1 toc-link" data-title="errors">Errors</a>
           </li>
       </div>
+        <ul class="toc-footer">
+            <li><a href='#'>Sign Up for a Developer Key</a></li>
+            <li><a href='https://github.com/lavkumarv'>Documentation Powered by lav</a></li>
+        </ul>
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p><strong>Version:</strong> 2018-04-29T05:38:21Z</p>
+<p><strong>Version:</strong> 2018-05-19T23:45:53Z</p>
 <h1 id='brains'>/BRAINS</h1><h2 id='get'><strong><em>GET</em></strong></h2><h3 id='http-request'>HTTP Request</h3>
 <p><code>***GET*** /brains</code></p>
 
@@ -287,6 +294,40 @@
 </tbody></table>
 <h2 id='post'><strong><em>POST</em></strong></h2><h3 id='http-request-2'>HTTP Request</h3>
 <p><code>***POST*** /brains</code></p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>name</td>
+<td>query</td>
+<td></td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+<tr>
+<td>data</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>schema</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+</tbody></table>
 
 <p><strong>Responses</strong></p>
 
@@ -360,6 +401,27 @@
 </tr>
 </thead><tbody>
 <tr>
+<td>name</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>data</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>schema</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
 <td>id</td>
 <td>path</td>
 <td></td>
@@ -377,7 +439,39 @@
 </tr>
 </thead><tbody>
 </tbody></table>
-<h2 id='options-2'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-6'>HTTP Request</h3>
+<h2 id='delete'><strong><em>DELETE</em></strong></h2><h3 id='http-request-6'>HTTP Request</h3>
+<p><code>***DELETE*** /brains/{id}</code></p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+</tbody></table>
+<h2 id='options-2'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-7'>HTTP Request</h3>
 <p><code>***OPTIONS*** /brains/{id}</code></p>
 
 <p><strong>Responses</strong></p>
@@ -393,7 +487,7 @@
 <td>200 response</td>
 </tr>
 </tbody></table>
-<h1 id='tests'>/TESTS</h1><h2 id='get-3'><strong><em>GET</em></strong></h2><h3 id='http-request-7'>HTTP Request</h3>
+<h1 id='tests'>/TESTS</h1><h2 id='get-3'><strong><em>GET</em></strong></h2><h3 id='http-request-8'>HTTP Request</h3>
 <p><code>***GET*** /tests</code></p>
 
 <p><strong>Responses</strong></p>
@@ -405,7 +499,7 @@
 </tr>
 </thead><tbody>
 </tbody></table>
-<h2 id='post-2'><strong><em>POST</em></strong></h2><h3 id='http-request-8'>HTTP Request</h3>
+<h2 id='post-2'><strong><em>POST</em></strong></h2><h3 id='http-request-9'>HTTP Request</h3>
 <p><code>***POST*** /tests</code></p>
 
 <p><strong>Responses</strong></p>
@@ -417,7 +511,7 @@
 </tr>
 </thead><tbody>
 </tbody></table>
-<h2 id='options-3'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-9'>HTTP Request</h3>
+<h2 id='options-3'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-10'>HTTP Request</h3>
 <p><code>***OPTIONS*** /tests</code></p>
 
 <p><strong>Responses</strong></p>
