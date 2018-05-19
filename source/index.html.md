@@ -5,6 +5,10 @@ title: dev-EverydayAI-API
 language_tabs:
    - shell
 
+toc_footers:
+   - <a href='#'>Sign Up for a Developer Key</a>
+   - <a href='https://github.com/lavkumarv'>Documentation Powered by lav</a>
+
 includes:
    - errors
 
@@ -14,7 +18,7 @@ search: true
 
 # Introduction
 
-**Version:** 2018-04-29T05:38:21Z
+**Version:** 2018-05-19T23:45:53Z
 
 # /BRAINS
 ## ***GET***
@@ -31,6 +35,14 @@ search: true
 
 ### HTTP Request
 `***POST*** /brains`
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| name | query |  | Yes | string |
+| data | query |  | No | string |
+| schema | query |  | No | string |
 
 **Responses**
 
@@ -69,6 +81,25 @@ search: true
 
 ### HTTP Request
 `***PUT*** /brains/{id}`
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| name | query |  | No | string |
+| data | query |  | No | string |
+| schema | query |  | No | string |
+| id | path |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+
+## ***DELETE***
+
+### HTTP Request
+`***DELETE*** /brains/{id}`
 
 **Parameters**
 
