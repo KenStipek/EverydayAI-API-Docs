@@ -267,6 +267,17 @@
               </ul>
           </li>
           <li>
+            <a href="#tests-id" class="toc-h1 toc-link" data-title="tests-id">/TESTS/{ID}</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#get-4" class="toc-h2 toc-link" data-title="strong-em-get-em-strong"><strong><em>GET</em></strong></a>
+                  </li>
+                  <li>
+                    <a href="#options-4" class="toc-h2 toc-link" data-title="strong-em-options-em-strong"><strong><em>OPTIONS</em></strong></a>
+                  </li>
+              </ul>
+          </li>
+          <li>
             <a href="#errors" class="toc-h1 toc-link" data-title="errors">Errors</a>
           </li>
       </div>
@@ -279,9 +290,9 @@
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p><strong>Version:</strong> 2018-05-19T23:45:53Z</p>
+<p><strong>Version:</strong> 2018-05-28T03:41:02Z </p>
 <h1 id='brains'>/BRAINS</h1><h2 id='get'><strong><em>GET</em></strong></h2><h3 id='http-request'>HTTP Request</h3>
-<p><code>***GET*** /brains</code></p>
+<p><code>***GET*** /brains</code> </p>
 
 <p><strong>Responses</strong></p>
 
@@ -293,7 +304,7 @@
 </thead><tbody>
 </tbody></table>
 <h2 id='post'><strong><em>POST</em></strong></h2><h3 id='http-request-2'>HTTP Request</h3>
-<p><code>***POST*** /brains</code></p>
+<p><code>***POST*** /brains</code> </p>
 
 <p><strong>Parameters</strong></p>
 
@@ -339,7 +350,7 @@
 </thead><tbody>
 </tbody></table>
 <h2 id='options'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-3'>HTTP Request</h3>
-<p><code>***OPTIONS*** /brains</code></p>
+<p><code>***OPTIONS*** /brains</code> </p>
 
 <p><strong>Responses</strong></p>
 
@@ -355,7 +366,7 @@
 </tr>
 </tbody></table>
 <h1 id='brains-id'>/BRAINS/{ID}</h1><h2 id='get-2'><strong><em>GET</em></strong></h2><h3 id='http-request-4'>HTTP Request</h3>
-<p><code>***GET*** /brains/{id}</code></p>
+<p><code>***GET*** /brains/{id}</code> </p>
 
 <p><strong>Parameters</strong></p>
 
@@ -387,7 +398,7 @@
 </thead><tbody>
 </tbody></table>
 <h2 id='put'><strong><em>PUT</em></strong></h2><h3 id='http-request-5'>HTTP Request</h3>
-<p><code>***PUT*** /brains/{id}</code></p>
+<p><code>***PUT*** /brains/{id}</code> </p>
 
 <p><strong>Parameters</strong></p>
 
@@ -440,7 +451,7 @@
 </thead><tbody>
 </tbody></table>
 <h2 id='delete'><strong><em>DELETE</em></strong></h2><h3 id='http-request-6'>HTTP Request</h3>
-<p><code>***DELETE*** /brains/{id}</code></p>
+<p><code>***DELETE*** /brains/{id}</code> </p>
 
 <p><strong>Parameters</strong></p>
 
@@ -472,7 +483,7 @@
 </thead><tbody>
 </tbody></table>
 <h2 id='options-2'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-7'>HTTP Request</h3>
-<p><code>***OPTIONS*** /brains/{id}</code></p>
+<p><code>***OPTIONS*** /brains/{id}</code> </p>
 
 <p><strong>Responses</strong></p>
 
@@ -488,7 +499,7 @@
 </tr>
 </tbody></table>
 <h1 id='tests'>/TESTS</h1><h2 id='get-3'><strong><em>GET</em></strong></h2><h3 id='http-request-8'>HTTP Request</h3>
-<p><code>***GET*** /tests</code></p>
+<p><code>***GET*** /tests</code> </p>
 
 <p><strong>Responses</strong></p>
 
@@ -500,7 +511,7 @@
 </thead><tbody>
 </tbody></table>
 <h2 id='post-2'><strong><em>POST</em></strong></h2><h3 id='http-request-9'>HTTP Request</h3>
-<p><code>***POST*** /tests</code></p>
+<p><code>***POST*** /tests</code> </p>
 
 <p><strong>Responses</strong></p>
 
@@ -512,7 +523,55 @@
 </thead><tbody>
 </tbody></table>
 <h2 id='options-3'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-10'>HTTP Request</h3>
-<p><code>***OPTIONS*** /tests</code></p>
+<p><code>***OPTIONS*** /tests</code> </p>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td>200 response</td>
+</tr>
+</tbody></table>
+<h1 id='tests-id'>/TESTS/{ID}</h1><h2 id='get-4'><strong><em>GET</em></strong></h2><h3 id='http-request-11'>HTTP Request</h3>
+<p><code>***GET*** /tests/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+</tbody></table>
+<h2 id='options-4'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-12'>HTTP Request</h3>
+<p><code>***OPTIONS*** /tests/{id}</code> </p>
 
 <p><strong>Responses</strong></p>
 
