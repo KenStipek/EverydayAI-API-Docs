@@ -273,6 +273,9 @@
                     <a href="#get-4" class="toc-h2 toc-link" data-title="strong-em-get-em-strong"><strong><em>GET</em></strong></a>
                   </li>
                   <li>
+                    <a href="#delete-2" class="toc-h2 toc-link" data-title="strong-em-delete-em-strong"><strong><em>DELETE</em></strong></a>
+                  </li>
+                  <li>
                     <a href="#options-4" class="toc-h2 toc-link" data-title="strong-em-options-em-strong"><strong><em>OPTIONS</em></strong></a>
                   </li>
               </ul>
@@ -290,7 +293,7 @@
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p><strong>Version:</strong> 2018-05-28T03:41:02Z </p>
+<p><strong>Version:</strong> 2018-05-29T03:09:47Z </p>
 <h1 id='brains'>/BRAINS</h1><h2 id='get'><strong><em>GET</em></strong></h2><h3 id='http-request'>HTTP Request</h3>
 <p><code>***GET*** /brains</code> </p>
 
@@ -379,6 +382,41 @@
 <th>Type</th>
 </tr>
 </thead><tbody>
+<tr>
+<td>includeData</td>
+<td>path</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>includeNetwork</td>
+<td>path</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>name</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>data</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
+<tr>
+<td>schema</td>
+<td>query</td>
+<td></td>
+<td>No</td>
+<td>string</td>
+</tr>
 <tr>
 <td>id</td>
 <td>path</td>
@@ -570,7 +608,39 @@
 </tr>
 </thead><tbody>
 </tbody></table>
-<h2 id='options-4'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-12'>HTTP Request</h3>
+<h2 id='delete-2'><strong><em>DELETE</em></strong></h2><h3 id='http-request-12'>HTTP Request</h3>
+<p><code>***DELETE*** /tests/{id}</code> </p>
+
+<p><strong>Parameters</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Located in</th>
+<th>Description</th>
+<th>Required</th>
+<th>Type</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td></td>
+<td>Yes</td>
+<td>string</td>
+</tr>
+</tbody></table>
+
+<p><strong>Responses</strong></p>
+
+<table><thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+</tbody></table>
+<h2 id='options-4'><strong><em>OPTIONS</em></strong></h2><h3 id='http-request-13'>HTTP Request</h3>
 <p><code>***OPTIONS*** /tests/{id}</code> </p>
 
 <p><strong>Responses</strong></p>
